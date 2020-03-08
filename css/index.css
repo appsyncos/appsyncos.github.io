@@ -1,4 +1,4 @@
-/*======(棣栭〉椤甸潰鍙充晶瀹氫綅銆佽繑鍥為噸瀹氫箟)==========*/
+/*======(首页页面右侧定位、返回重定义)==========*/
 .gotoBox {
   display: block;
   position: fixed;
@@ -10,12 +10,12 @@
   z-index: 99;
 }
 
-/*======(棣栭〉搴曢儴鎺ㄩ€佷俊鎭斁寮€)==========*/
+/*======(首页底部推送信息放开)==========*/
 .footer .footer_push {
   display: block;
 }
 
-/* 杞欢鍒嗙被寮€濮� */
+/* 软件分类开始 */
 .content-main {
   width: 1200px;
   margin: 0 auto;
@@ -76,7 +76,7 @@
   margin-right: 5px;
 }
 
-/* 杞挱鍥� */
+/* 轮播图 */
 .swiper-img {
   height: 375px;
 }
@@ -127,7 +127,7 @@
   background: #FF8800;
 }
 
-/* 绮惧搧杞欢 */
+/* 精品软件 */
 .good-software-nav {
   display: inline-block;
   width: 6.666667rem;
@@ -170,7 +170,7 @@
   -moz-transform: rotate(135deg);
   /* Firefox */
   -webkit-transform: rotate(135deg);
-  /* Safari 鍜� Chrome */
+  /* Safari 和 Chrome */
   -o-transform: rotate(135deg);
   /* Opera */
 
@@ -198,7 +198,7 @@
   color: #5ECD5B;
 }
 
-/* 鐢佃剳甯哥敤杞欢 */
+/* 电脑常用软件 */
 .conmm-software {
   margin-top: 42px;
 }
@@ -269,7 +269,7 @@
   color: #FF684D;
 }
 
-/*鎵嬫満蹇呭杞欢 */
+/*手机必备软件 */
 .app-software-top {
   height: 35px;
   line-height: 35px;
@@ -333,7 +333,7 @@
   font-size: 14px;
 }
 
-/* 杞欢鍒嗙被鏇存柊 */
+/* 软件分类更新 */
 .software-update {
   margin-top: 35px;
 }
@@ -377,7 +377,7 @@
   -moz-transform: rotate(135deg);
   /* Firefox */
   -webkit-transform: rotate(135deg);
-  /* Safari 鍜� Chrome */
+  /* Safari 和 Chrome */
   -o-transform: rotate(135deg);
   /* Opera */
   z-index: 10;
@@ -432,7 +432,7 @@
   margin-left: 0 !important;
 }
 
-/* 濯掍綋鏌ヨ */
+/* 媒体查询 */
 
 @media screen and (min-width:485px) {
   .hot_recommend .recommend_list li {
@@ -466,7 +466,7 @@
     display: none !important;
   }
 
-  /* 鎵嬫満绔簿鍝佹帹鑽� 瀹夊崜杞欢*/
+  /* 手机端精品推荐 安卓软件*/
   .good-software .good-software-list .row.good-and-list {
     display: block !important;
     height: 20rem;
@@ -483,7 +483,7 @@
     justify-items: center;
   }
 
-  /* 绮惧搧鎺ㄨ崘 */
+  /* 精品推荐 */
   .good-software-list-img {
     width: 25%;
     padding: .416667rem 0;
