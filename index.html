@@ -27,40 +27,26 @@ footer{clear:both;padding:30px 0;border-top:1px solid #ddd;font-size:12px;text-a
       
       
       
+   var t=10;//设定跳转的时间
+setInterval("refer()",5000); //启动5秒定时
+function refer(){
+    if(t==0){
+        location="https://appsyncos.github.io/hao123/"; //设定跳转的链接地址
+    }
+    document.getElementById('show').innerHTML=""+t+"秒后进入"; //显示倒计时
+    t--; //计数器递减
+}   
       
       
       
-      
-      
-     <h1>简易网址导航,装机必备,正版官网地址</h1></p>
-  
  
   
-<form action="http://www.baidu.com/baidu" target="_blank">
-<table bgcolor="#FFFFFF"><tr><td>
-<input name=tn type=hidden value=baidu>
-<a href="http://www.baidu.com/"><img src="http://img.baidu.com/img/logo-80px.gif" alt="Baidu" align="bottom" border="0"></a>
-<input type=text name=word size=30>
-<input type="submit" value="百度搜索">
-</td></tr></table>
-</form>
   
   
   
   
-<div>
-
-<h3>
-搜索 <a style="" class=" bold" href="https://www.baidu.com/" target="_blank" data-icon="no-icon" newsexpo="yw2_2">百度搜索</a></p>
-新闻 <a style="" class=" bold" href="https://www.qq.com/" target="_blank" data-icon="no-icon" newsexpo="yw2_2">腾讯QQ</a></p>
-购物 <a style="" class=" bold" href="https://www.taobao.com/" target="_blank" data-icon="no-icon" newsexpo="yw2_2">淘宝网</a></p>
-视频 <a style="" class=" bold" href="https://www.bilibili.com/" target="_blank" data-icon="no-icon" newsexpo="yw2_2">哔哩哔哩</a></p>
-动漫 <a style="" class=" bold" href="https://www.acfun.cn/" target="_blank" data-icon="no-icon" newsexpo="yw2_2">AcFun</a></p>
-普法安全 <a style="" class=" bold" href="https://www.acfun.cn/u/4075269.aspx" target="_blank" data-icon="no-icon" newsexpo="yw2_2">交通事故video</a></p>
-</h3>
-
-<h6>202002241933</h6>
-</div>
+  
+  
  <style type="text/css">
         html{height:100%;}
         body{min-height:100%;margin:0;padding:0;position:relative;}
