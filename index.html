@@ -24,21 +24,28 @@ footer{clear:both;padding:30px 0;border-top:1px solid #ddd;font-size:12px;text-a
     </style>
   </style>
       
-      
-      
-      
-   var t=10;//设定跳转的时间
-setInterval("refer()",5000); //启动5秒定时
-function refer(){
-    if(t==0){
-        location="https://appsyncos.github.io/hao123/"; //设定跳转的链接地址
-    }
-    document.getElementById('show').innerHTML=""+t+"秒后进入"; //显示倒计时
-    t--; //计数器递减
-}   
-      
-      
-      
+  
+  
+  
+  
+  
+  
+  
+  
+<script language="javascript" type="text/javascript">
+var i = 5;
+var intervalid;
+intervalid = setInterval("fun()", 1000);
+function fun() {
+　　if (i == 0) {
+　　　　window.location.href = "../index.html";
+　　　　clearInterval(intervalid);
+　　}
+　　document.getElementById("mes").innerHTML = i;
+　　i--;
+}
+</script>
+
  
   
   
