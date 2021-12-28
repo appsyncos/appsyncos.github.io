@@ -1,3 +1,11 @@
+.top_inner {
+    background: url(https://h2.2345cdn.net/theme/skinimg/181/theme_w.jpg) center top no-repeat;
+    height: 688px;
+}
+
+
+
+
 /*======(首页页面右侧定位、返回重定义)==========*/
 .gotoBox {
   display: block;
